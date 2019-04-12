@@ -8,7 +8,8 @@
     "react/jsx-one-expression-per-line": "off",
     "@typescript-eslint/no-unused-vars": [2, { "args": "none" }],
     "function-paren-newline": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "no-else-return": "off"
   },
   "settings": {
     "import/resolver": {
