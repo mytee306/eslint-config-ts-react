@@ -19,5 +19,13 @@ module.exports = {
   "env": {
     "browser": true,
     "jest": true
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts"],
+      "rules": {
+        "import/prefer-default-export": "off"
+      }
+    }
+  ]
 }
