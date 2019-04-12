@@ -5,7 +5,8 @@ module.exports = {
   "rules": {
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
     "implicit-arrow-linebreak": "off",
-    "react/jsx-one-expression-per-line": "off"
+    "react/jsx-one-expression-per-line": "off",
+    "@typescript-eslint/no-unused-vars": [2, { "args": "none" }]
   },
   "settings": {
     "import/resolver": {
