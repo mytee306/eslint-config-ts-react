@@ -13,15 +13,6 @@
   "files": [
     "index.js"
   ],
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.0.11",
@@ -54,5 +45,21 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.16.4"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mytee306/eslint-config-ts-react.git"
+  },
+  "homepage": "https://github.com/mytee306/eslint-config-ts-react",
+  "keywords": [
+    "react",
+    "eslint",
+    "typescript",
+    "airbnb"
+  ],
+  "description": "Eslint configuration for linting a React Typescript app using the popular AirBnB stylguide and Prettier for formatting",
+  "bugs": {
+    "url": "https://github.com/mytee306/eslint-config-ts-react/issues"
   }
 }
