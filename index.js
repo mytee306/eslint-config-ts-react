@@ -9,7 +9,8 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": [2, { "args": "none" }],
     "function-paren-newline": "off",
     "react/prop-types": "off",
-    "no-else-return": "off"
+    "no-else-return": "off",
+    "arrow-parens": "off"
   },
   "settings": {
     "import/resolver": {
