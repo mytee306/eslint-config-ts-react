@@ -56,7 +56,8 @@
     "react",
     "eslint",
     "typescript",
-    "airbnb"
+    "airbnb",
+    "prettier"
   ],
   "description": "Eslint configuration for linting a React Typescript app using the popular AirBnB stylguide and Prettier for formatting",
   "bugs": {
