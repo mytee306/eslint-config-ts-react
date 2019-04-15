@@ -9,7 +9,7 @@
     "eject": "react-scripts eject",
     "build:script": "tsc scripts/build.ts",
     "build": "npm run build:script && node scripts/build.js",
-    "build:publish": "npm run build && git add -A && git commit --message 'Updates:.eslintrc.json' && git push && git push --follow-tags && npm publish"
+    "build:publish": "npm run build && git add -A && git commit --message 'Updates:.eslintrc.json' && git push && npm version patch && git push --follow-tags && npm publish"
   },
   "files": [
     "index.js"
