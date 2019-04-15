@@ -11,7 +11,8 @@ module.exports = {
     "react/prop-types": "off",
     "no-else-return": "off",
     "arrow-parens": "off",
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "object-curly-newline": "off"
   },
   "settings": {
     "import/resolver": {
