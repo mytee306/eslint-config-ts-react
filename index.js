@@ -12,7 +12,8 @@ module.exports = {
     "no-else-return": "off",
     "arrow-parens": "off",
     "linebreak-style": "off",
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "import/no-unresolved": "off"
   },
   "settings": {
     "import/resolver": {
