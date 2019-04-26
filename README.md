@@ -12,7 +12,7 @@ npm install --save-dev eslint-config-ts-react
 
 ```json
 {
-  "extends": ["eslint-config-ts-react"]
+  "extends": ["ts-react"]
 }
 ```
 
