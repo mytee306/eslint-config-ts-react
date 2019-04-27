@@ -32,7 +32,35 @@ _.env_
 PREFLIGHT_CHECK=SKIP
 ```
 
-### VSCode Integration though Extensions
+### VSCode Integration
+
+#### Extensions
 
 [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+#### Settings
+
+##### Locally 
+
+**.vscode/settings.json**
+```json
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
++   "typescript",
++   "typescriptreact"
+  ],
+```
+
+##### Globally 
+
+settings.json ( `ctrl+,` )
+```diff
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
++   "typescript",
++   "typescriptreact"
+  ],
+```
