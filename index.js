@@ -10,7 +10,10 @@ module.exports = {
     "function-paren-newline": "off",
     "react/prop-types": "off",
     "no-else-return": "off",
-    "arrow-parens": "off"
+    "arrow-parens": "off",
+    "linebreak-style": "off",
+    "object-curly-newline": "off",
+    "import/no-unresolved": "off"
   },
   "settings": {
     "import/resolver": {
