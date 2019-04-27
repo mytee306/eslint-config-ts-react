@@ -1,7 +1,7 @@
 {
   "extends": ["airbnb"],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": ["@typescript-eslint", "prettier", "html"],
   "rules": {
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
     "implicit-arrow-linebreak": "off",
