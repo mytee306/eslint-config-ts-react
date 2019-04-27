@@ -15,14 +15,6 @@ module.exports = {
     "object-curly-newline": "off",
     "import/no-unresolved": "off"
   },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["src"],
-        "extensions": [".ts", ".tsx"]
-      }
-    }
-  },
   "env": {
     "browser": true,
     "jest": true
