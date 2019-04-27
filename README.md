@@ -36,15 +36,15 @@ PREFLIGHT_CHECK=SKIP
 
 #### Extensions
 
-[Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 #### Settings
 
 ##### Locally 
 
 **.vscode/settings.json**
-```json
+```diff
   "eslint.validate": [
     "javascript",
     "javascriptreact",
