@@ -32,6 +32,13 @@ _.env_
 PREFLIGHT_CHECK=SKIP
 ```
 
+*_Optionally remove the following from your `package.json`_
+```diff
+-  "esintConfig": {
+-    "extends": "react-app"
+-  }
+```
+
 ### VSCode Integration
 
 #### Extensions
