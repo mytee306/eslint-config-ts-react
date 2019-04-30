@@ -6,6 +6,7 @@
     "@typescript-eslint/no-unused-vars": [2, { "args": "none" }],
     "no-unused-vars": "off",
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "@typescript-eslint/prefer-interface": "error",
     "react/prop-types": "off",
     "linebreak-style": "off",
     "no-else-return": "off",
