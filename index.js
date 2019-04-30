@@ -1,8 +1,10 @@
 module.exports = {
   "extends": ["airbnb"],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["prettier", "html"],
+  "plugins": ["@typescript-eslint", "prettier", "html"],
   "rules": {
+    "@typescript-eslint/no-unused-vars": [2, { "args": "none" }],
+    "no-unused-vars": "off",
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
     "react/prop-types": "off",
     "linebreak-style": "off",
@@ -24,5 +26,16 @@ module.exports = {
         "import/prefer-default-export": "off"
       }
     }
-  ]
+  ],
+  "settings": {
+    "import/extensions": [".ts", ".tsx"],
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts", ".tsx"]
+      }
+    }
+  }
 }

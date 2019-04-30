@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { SFC } from 'react';
 import './App.css';
 import logo from './logo.svg';
 
-const App = () => (
+export interface AppProps {}
+
+const App: SFC<AppProps> = () => (
   <div className="App">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
