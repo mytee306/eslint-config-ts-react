@@ -15,6 +15,7 @@ module.exports = {
     "implicit-arrow-linebreak": "off",
     "function-paren-newline": "off",
     "arrow-parens": "off",
+    "no-confusing-arrow": "off",
     "import/no-unresolved": "off",
     "import/named": "off",
     "prefer-arrow/prefer-arrow-functions": [
