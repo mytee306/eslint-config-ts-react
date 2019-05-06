@@ -8,6 +8,7 @@ module.exports = {
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
     "@typescript-eslint/prefer-interface": "error",
     "react/prop-types": "off",
+    "no-useless-constructor": "off",
     "linebreak-style": "off",
     "no-else-return": "off",
     "react/jsx-one-expression-per-line": "off",
