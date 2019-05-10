@@ -11,6 +11,7 @@ module.exports = {
     "no-useless-constructor": "off",
     "linebreak-style": "off",
     "no-else-return": "off",
+    "jsx-a11y/anchor-is-valid": "off",
     "react/jsx-one-expression-per-line": "off",
     "object-curly-newline": "off",
     "implicit-arrow-linebreak": "off",
