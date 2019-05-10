@@ -20,6 +20,7 @@ module.exports = {
     "no-confusing-arrow": "off",
     "import/no-unresolved": "off",
     "import/named": "off",
+    "import/no-extraneous-dependencies": "off",
     "prefer-arrow/prefer-arrow-functions": [
       "warn",
       {
